@@ -1,5 +1,10 @@
 #include "WmiQuery.hpp"
 
+/*
+    Credits:
+    https://stackoverflow.com/a/48741695
+*/
+
 Wmi::WmiQueryResult Wmi::GetWmiQueryResult(std::wstring WmiQuery, std::wstring PropNameOfResultObject, bool AllowEmptyItems)
 {
     WmiQueryResult ReturnValue;
