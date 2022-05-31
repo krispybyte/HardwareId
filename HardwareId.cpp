@@ -1,5 +1,5 @@
 #include "HardwareId.hpp"
-#include "../WmiQuery/WmiQuery.hpp"
+#include "WmiQuery/WmiQuery.hpp"
 
 /*
 	Cpu
